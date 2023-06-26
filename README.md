@@ -1,4 +1,4 @@
-# Project build with Advanced Bootstrap
+# Project built with Advanced Bootstrap
 ## Features:
 - Navbar;
 - Container and container-fluid;
