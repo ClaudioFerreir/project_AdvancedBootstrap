@@ -38,7 +38,7 @@ h1,
 .navbar nav .nav-link.active,
 .dropdown-menu.show li a:hover {
   color: var(--background-color);
-  background-color: #5b3a30;
+  background-color: var(--primary-color);
 }
 
 .dropdown-menu {
@@ -52,12 +52,18 @@ h1,
   color: var(--primary-color);
 }
 
-section {
-  height: 100vh;
-  background-color: #ccc;
-}
-
-/*Carousel*/
+/*Carousel section*/
 .carousel-item img{
   height: 80vh;
+}
+
+/*Lojas section*/
+#lojas {
+  height: auto;
+  color: var(--background-color);
+  background-color: var(--primary-color);
+}
+
+#lojas select {
+  height: 3em;
 }
