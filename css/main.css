@@ -24,7 +24,8 @@ header {
 
 .dropdown-menu,
 .modal-content,
-.btn-secondary {
+.btn-secondary,
+#rodape  {
   color: var(--primary-color);
   background-color: var(--background-color);
 }
@@ -80,5 +81,14 @@ h4,
   color: var(--background-color);
 }
 
-/**/
+/*footer*/
+.separated {
+  width: 1px;
+  background-color: var(--primary-color);
+  align-self: stretch;
+}
+
+#rodape a {
+  color: var(--primary-color);
+}
 
