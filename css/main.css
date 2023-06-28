@@ -124,6 +124,11 @@ h4,
     flex-direction: column;
   }
 
+  #contato strong {
+    display: block;
+    text-align: center;
+  }
+
   .copy {
     border-top: 1px solid var(--primary-color);
     font-size: 10px;
