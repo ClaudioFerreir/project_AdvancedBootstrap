@@ -19,7 +19,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="text-uppercase">Fique Atento</h5>
-          <button data-bs-dismiss="modal" type="button" class="btn-close"></button>
+          <button data-bs-dismiss="modal" type="button" class="btn-close" id="btn-close-alert"></button>
         </div>
         <div class="modal-body">
           <p>
@@ -155,6 +155,19 @@
       <div class="text-center pt-2">&copy; 2023 SweetShop. Todos os direitos reservados.</div>
       <div class="text-center pb-2">Created by Claudio Ferreira. </div>
     </footer>
+  </div>
+  <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div class="toast" id="mensagem-cookies"  data-bs-autohide="false">
+      <header class="toast-header">
+        <strong>Importante</strong>
+      </header>
+      <div class="toast-body">
+        Este site utiliza cookies para melhorar a sua experiência de navegação. Ao continuar navegando, você concorda com a nossa <a href="#">Política de Privacidade.</a>
+      </div>
+      <div class="p-2 border-top">
+        <button data-bs-dismiss="toast" type="button" class="btn btn-secondary">Aceitar Cookies</button>
+      </div>
+    </div>
   </div>
 </body>
 </html>

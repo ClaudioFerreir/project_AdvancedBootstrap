@@ -1,9 +1,20 @@
+//Modal alert
 document.addEventListener('DOMContentLoaded', function() {
   const modalWarning = new bootstrap.Modal('#aviso-modal');
   modalWarning.show();
-
 });
 
+// Cookies Alert
+const btnClose = document.getElementById('btn-close-alert');
+btnClose.addEventListener('click', function() {
+  setTimeout(function() {
+    const mensagem = document.getElementById('mensagem-cookies');
+    const toast = new bootstrap.Toast(mensagem);
+    toast.show();
+    }, 3000);
+});
+
+// API IBGE
 const output = document.querySelector('.output');
 const mainURL = 'https://servicodados.ibge.gov.br/api/v1/localidades/estados/';
 const optionEstado = document.querySelector('#estado');
