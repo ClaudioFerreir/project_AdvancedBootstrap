@@ -23,20 +23,23 @@ header {
 }
 
 .dropdown-menu,
-.modal-content {
+.modal-content,
+.btn-secondary {
   color: var(--primary-color);
   background-color: var(--background-color);
 }
 
 #navbar,
 h1,
+h4,
 .dropdown-menu.show li a,
 .nav-link.dropdown-toggle.show {
   color: var(--primary-color);
 }
 
 .navbar nav .nav-link.active,
-.dropdown-menu.show li a:hover {
+.dropdown-menu.show li a:hover,
+.btn-secondary:hover {
   color: var(--background-color);
   background-color: var(--primary-color);
 }
@@ -67,3 +70,5 @@ h1,
 #lojas select {
   height: 3em;
 }
+
+
