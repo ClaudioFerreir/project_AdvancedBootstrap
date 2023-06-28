@@ -39,7 +39,7 @@
         <nav class="collapse navbar-collapse justify-content-end" id="menu">
           <ul class="nav navbar-nav nav-pills">
             <li class="nav-item">
-              <a class="nav-link active me-2" href="#carousel">A SweetShop</a>
+              <a class="nav-link active me-2" href="#carouselMain">A SweetShop</a>
             </li>
             <li class="nav-item me-2">
               <a class="nav-link" href="#lojas">Lojas</a>
@@ -48,8 +48,8 @@
               <a class="nav-link dropdown-toggle" href="#produtos" data-bs-toggle="dropdown">Produtos</a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Bolos</a></li>
-                <li><a class="dropdown-item" href="#">Salgados</a></li>
                 <li><a class="dropdown-item" href="#">Doces</a></li>
+                <li><a class="dropdown-item" href="#">Kit Festa</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -88,7 +88,7 @@
       </div>
     </section>
     <section id="lojas">
-      <h4 class="text-center pt-4">Saiba onde encontrar a nossa loja mais proxima</h4>
+      <h3 class="text-center pt-4">Saiba onde encontrar a nossa loja mais proxima</h3>
       <div class="d-lg-flex container gap-4 pb-4">
         <select id="estado" class="output form-select mb-3">
           <option selected>Selecione o estado</option>
@@ -98,11 +98,47 @@
         </select>
       </div>
     </section>
-    <section id="produtos">
-      <h2>Produtos</h2>
+    <section id="produtos" class="pb-4">
+      <div class="container">
+        <h4 class="text-center p-5 fs-2 mb-0">Conheça nossos produtos</h4>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 pb-4">
+            <div class="card text-bg-dark rounded-5">
+              <img src="./images/bg_bolos.png" alt="imagem de bolo">
+              <div class="card-img-overlay d-flex flex-column justify-content-end align-items-center">
+                <h4 class="card-title text-uppercase"> Bolos</h4>
+                <a href="#" class="btn btn-secondary px-4 border border-0">Eu quero!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 pb-4">
+            <div class="card text-bg-dark rounded-5">
+              <img src="./images/bg_doces.png" alt="imagem de doces">
+              <div class="card-img-overlay d-flex flex-column justify-content-end align-items-center">
+                <h4 class="card-title text-uppercase">Doces</h4>
+                <a href="#" class="btn btn-secondary px-4 border border-0">Eu quero!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 pb-4">
+            <div class="card text-bg-dark rounded-5">
+              <img src="./images/bg_kit_festa.png" alt="imagem de doces festa">
+            <div class="card-img-overlay d-flex flex-column justify-content-end align-items-center">
+              <h4 class="card-title text-uppercase">Kit Festa</h4>
+              <a href="#" class="btn btn-secondary px-4 border border-0">Eu quero!</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="contato">
-      <h2>Contato</h2>
+      <div class="d-flex align-items-center justify-content-center justify-content-evenly p-3 container gap-2">
+        <img src="./images/app-rodape-icon.png" alt="">
+        <p class="m-0">Um clique para adoçar o seu dia! <strong>Baixe nosso app.</strong></p>
+        <img src="./images/google-play.png" alt="logo google play">
+        <img src="./images/app-store.png" alt="logo apple store">
+      </div>
     </section>
   </div>
 </body>

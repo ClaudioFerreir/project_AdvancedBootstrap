@@ -36,9 +36,9 @@ optionEstado.addEventListener('change', function(e) {
   fetch(url).then((response) => {
     return response.json();
   }).then((json) => {
-    console.log(json);
+    /*console.log(json);*/
     for (let i=0; i < json.length; i++) {
-      console.log(json[i].nome);
+      /*console.log(json[i].nome);*/
       const optionCity = document.createElement('option');
       optionCity.value = json[i].nome;
       optionCity.textContent = json[i].nome;
