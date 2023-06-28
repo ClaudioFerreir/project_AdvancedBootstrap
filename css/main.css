@@ -92,3 +92,44 @@ h4,
   color: var(--primary-color);
 }
 
+@media screen and (max-width: 767px) {
+  #aviso-modal {
+    max-width: 50vh;
+  }
+
+  #carouselMain img{
+    height: 50vh;
+  }
+
+  #lojas h3 {
+    padding-bottom: 1em;
+  }
+
+  #produtos h4 {
+    font-size: 2em;
+  }
+
+  #produtos a {
+    width: 30vh;
+  }
+
+  .toast-container {
+    max-width: 50vh;
+    position: fixed;
+    left: 0;
+  }
+
+  #contato > div,
+  #rodape > div {
+    flex-direction: column;
+  }
+
+  .copy {
+    border-top: 1px solid var(--primary-color);
+    font-size: 10px;
+  }
+
+  .copy2 {
+    font-size: 10px;
+  }
+}
