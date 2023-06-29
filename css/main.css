@@ -59,6 +59,7 @@ h4,
 /*Carousel section*/
 .carousel-item img{
   height: 80vh;
+  object-fit: cover;
 }
 
 /*Lojas section*/
